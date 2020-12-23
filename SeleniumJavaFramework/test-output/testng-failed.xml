@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="DSMTestCases.TestCases">
+        <methods>
+          <include name="AppTitleVerify"/>
+          <include name="Screen1Text1"/>
+          <include name="ChooseLeadObject"/>
+          <include name="PreviousText1"/>
+          <include name="OpenAPP"/>
+          <include name="CloseHelpText1"/>
+          <include name="Screen1Text3"/>
+          <include name="ToastMessage1"/>
+          <include name="HelpText1"/>
+          <include name="Scrren1Text4"/>
+          <include name="VerifyObjects"/>
+          <include name="HelpIcon1Open"/>
+          <include name="Screen1Text2"/>
+        </methods>
+      </class> <!-- DSMTestCases.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
