@@ -15,7 +15,7 @@ public class Amazon {
 		System.out.println("projectpath : "+projectpath);
 		
 		//set the property
-		System.setProperty("webdriver.chrome.driver" , projectpath+"\\Drivers\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver" , projectpath+"\\Drivers\\ChromeDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 	    
 		//navigate to amazon
@@ -35,7 +35,7 @@ public class Amazon {
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS );
 		
 		//Password Sending 
-		driver.findElement(By.name("password")).sendKeys("Hondacivic97");
+		driver.findElement(By.name("password")).sendKeys("PASSWORD");
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS );
 		driver.findElement(By.id("signInSubmit")).click();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS );
