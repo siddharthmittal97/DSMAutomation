@@ -43,7 +43,7 @@ public class Learning1 {
 		//driver.findElement(By.xpath("(//input[@type='text'])[2]")).sendKeys("siddharthmittal97@gmail.com");
 		  
 		driver.findElement(By.xpath("/descendant::input[@type='text'][2]")).sendKeys("siddharthmittal97@gmail.com");
-		driver.findElement(By.xpath("//input[contains(@type,'pass')]")).sendKeys("Hondacivic97");
+		driver.findElement(By.xpath("//input[contains(@type,'pass')]")).sendKeys("Password");
 		driver.findElement(By.xpath("//div[3]//button[1]")).click();
 		//Thread.sleep(2000);
 		//driver.findElement(By.name("q")).sendKeys("iphone");
