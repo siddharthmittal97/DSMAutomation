@@ -36,7 +36,7 @@ public class SiddharthCode1 {
         
        //getting the element & inserting username
         WebElement password  = driver.findElement(By.id("password"));
-        password.sendKeys("Mirketa@01");
+        password.sendKeys("Password");
         //password.submit();
        
         //Click Actions
