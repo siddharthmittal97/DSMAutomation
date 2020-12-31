@@ -39,7 +39,7 @@ public class DSM {
 		log.info("Sucessfully Enter into the Salesforce Login Page");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("advityaQAtesting@mirketa.com");
-		driver.findElement(By.id("password")).sendKeys("Mirketa90+");
+		driver.findElement(By.id("password")).sendKeys("Password");
 		//driver.findElement(By.id("rememberUn")).click();
 		driver.findElement(By.id("Login")).click();
 		log.info("Login Sucessful");

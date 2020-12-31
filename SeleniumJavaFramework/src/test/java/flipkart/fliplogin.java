@@ -14,7 +14,7 @@ public class fliplogin {
 	public void login() throws Exception 
 	{	
 	driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]")).sendKeys("siddharthmittal97@gmail.com");
-	driver.findElement(By.xpath("//input[contains(@type,'pass')]")).sendKeys("Hondacivic97");
+	driver.findElement(By.xpath("//input[contains(@type,'pass')]")).sendKeys("Password");
 	driver.findElement(By.xpath("//div[3]//button[1]")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.name("q")).sendKeys("samsung mobiles");

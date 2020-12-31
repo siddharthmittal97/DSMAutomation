@@ -30,7 +30,7 @@ public class SiddharthCode2 {
 	     WebElement username  = driver.findElement(By.xpath("//input[@id='username']")); 
 	     username.sendKeys("vandana.roy@mirketalr.com");
 	     WebElement password  = driver.findElement(By.id("password"));
-	     password.sendKeys("Mirketa@01");// you can enter also here 
+	     password.sendKeys("Password");// you can enter also here 
 	     password.submit();
 	     //Just Checking the print
 	     System.out.println("Test fully passed");

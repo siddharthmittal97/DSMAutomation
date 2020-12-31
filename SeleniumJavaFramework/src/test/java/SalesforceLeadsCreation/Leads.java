@@ -20,7 +20,7 @@ public class Leads {
 		driver.get("https://login.salesforce.com");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("siddharthautomation@mirketa.com");
-		driver.findElement(By.id("password")).sendKeys("qwerty12345");
+		driver.findElement(By.id("password")).sendKeys("Password");
 		driver.findElement(By.id("Login")).click();
 		driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//div[@class='slds-icon-waffle']")).click();

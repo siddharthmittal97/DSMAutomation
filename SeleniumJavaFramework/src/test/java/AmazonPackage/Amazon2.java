@@ -32,7 +32,7 @@ public class Amazon2 {
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS );
 		
 		//Password Sending 
-		driver.findElement(By.name("password")).sendKeys("Hondacivic97");
+		driver.findElement(By.name("password")).sendKeys("Password");
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS );
 		driver.findElement(By.id("signInSubmit")).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS );

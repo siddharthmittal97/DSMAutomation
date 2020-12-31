@@ -41,7 +41,7 @@ public class Account {
 			 username.sendKeys("siddharthautomation@mirketa.com");    
 			 //getting the element & inserting username
 			 WebElement password  = driver.findElement(By.id("password"));
-			 password.sendKeys("qwerty12345");
+			 password.sendKeys("Password");
 			 Actions actions = new Actions(driver);
 			 WebElement elementLocator = driver.findElement(By.id("Login"));
 			 actions.doubleClick(elementLocator).perform();

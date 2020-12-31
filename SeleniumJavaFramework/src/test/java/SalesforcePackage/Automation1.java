@@ -32,7 +32,7 @@ public class Automation1 {
 		
 		//login1
 		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("siddharthautomation@mirketa.com");
-		driver.findElement(By.id("password")).sendKeys("qwerty12345");
+		driver.findElement(By.id("password")).sendKeys("Password");
 		driver.findElement(By.id("Login")).click();
 		
 		//App launcher
