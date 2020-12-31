@@ -34,7 +34,7 @@ public static WebDriver driver;
 public void Login() throws Exception
  {
 	   driver.findElement(By.xpath("/descendant::input[@type='text'][2]")).sendKeys("siddharthm@gmail.com");
-	   driver.findElement(By.xpath("//input[contains(@type,'pass')]")).sendKeys("Hondacivic97");
+	   driver.findElement(By.xpath("//input[contains(@type,'pass')]")).sendKeys("Password");
 	   driver.findElement(By.xpath("//div[3]//button[1]")).click();
 	  /*
 	   String ActualError = driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/span[2]/span[1]")).getText();
